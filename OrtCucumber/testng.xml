@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="false" verbose="1">
+
+<listeners>
+<listener class-name="com.ExtentReportListner.ExtentReporterNG" />
+</listeners>
+
+
+
+<!--  <test name="SK_LA_OpenIncident" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_OpenIncident" />
+</classes>
+</test>  
+
+
+<test name="SK_Observer_OpenIncident" >
+<classes>
+<class name="com.TestNGScript.file.SK_Observer_OpenIncident" />
+</classes>
+</test>  
+
+  
+<test name="SK_SA_OpenIncident" >
+<classes>
+<class name="com.TestNGScript.file.SK_SA_OpenIncident" />
+</classes>
+</test> 
+
+<test name="SK_911Incident" >
+<classes>
+<class name="com.TestNGScript.file.SK_911Incident" /> 
+</classes>
+</test>
+   
+ -->
+ <test name="SK_LA_ShareActiveEvent" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_ShareActiveEvent" />
+</classes>
+</test>  
+
+<test name="SK_LA_CloseActiveEvents" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_CloseActiveEvents" />
+</classes>
+</test>
+
+
+<test name="SK_LA_ClosedIncident" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_ClosedIncident" />
+</classes>
+</test> 
+ 
+<test name="SK_LA_Geofences" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_Geofences" />
+</classes>
+</test>
+
+
+<test name="SK_LA_SendNotification" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_SendNotification" />
+</classes>
+</test>
+
+
+<test name="SK_LA_EventResponsePlans" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_EventResponsePlans" />
+</classes>
+</test>
+
+<test name="SK_LA_ScheduleNotification" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_ScheduleNotification" />
+</classes>
+</test>
+
+
+
+<test name="SK_LA_NotificationGroups" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_NotificationGroups" />
+</classes>
+</test>
+
+
+
+<test name="SK_LA_TipNotifications" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_TipNotifications" />
+</classes>
+</test> 
+
+<test name="SK_LA_EmergencyContacts" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_EmergencyContacts" />
+</classes>
+</test> 
+
+
+<test name="SK_LA_ExternalContacts" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_ExternalContacts" />
+</classes>
+</test>
+
+
+
+<test name="SK_LA_AssetsManagment" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_AssetsManagment" />
+</classes>
+</test>
+
+
+
+
+<test name="SK_LA_NotificationHistory" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_NotificationHistory" />
+</classes>
+</test>
+
+
+<test name="SK_LA_Maps" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_Maps" />
+</classes>
+</test>
+
+    
+<test name="SK_LA_NotificationTemplates" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_NotificationTemplates" />
+</classes>
+</test> 
+
+
+
+ <test name="SK_LA_CommunicationReports" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_CommunicationReports" />
+</classes>
+</test> 
+ 
+<test name="SK_LA_EventReports" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_EventReports" />
+</classes>
+</test> 
+
+<test name="SK_LA_SurveyReports" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_SurveyReports" />
+</classes>
+</test> 
+
+<test name="SK_LA_ThermalReports" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_SurveyReports" />
+</classes>
+</test> 
+
+<test name="SK_LA_TipReports" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_TipReports" />
+</classes>
+</test> 
+
+<test name="SK_LA_UserReports" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_UserReports" />
+</classes>
+</test> 
+ 
+<test name="SK_LA_SendAPoll" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_SendAPoll" />
+</classes>
+</test>
+
+
+<test name="SK_LA_PollGroups" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_PollGroups" />
+</classes>
+</test>
+
+
+<test name="SK_ForgotPassword" >
+<classes>
+<class name="com.TestNGScript.file.SK_ForgotPassword" />
+</classes>
+</test>
+
+    
+<test name="SK_LA_HomePage" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_HomePage" />
+</classes>
+</test>
+
+    
+<test name="SK_SA_Organization" >
+<classes>
+<class name="com.TestNGScript.file.SK_SA_Organization" />
+</classes>
+</test>
+
+    
+<test name="SK_SA_OrganizationList" >
+<classes>
+<class name="com.TestNGScript.file.SK_SA_OrganizationList" />
+</classes>
+</test>
+
+<test name="SK_LA_CovidCover" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_CovidCover" />
+</classes>
+</test>   
+
+
+<test name="SK_LA_UsersContacts" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_UsersContacts" />
+</classes>
+</test>  
+
+
+<test name="SK_LA_UsersProfile" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_UsersProfile" />
+</classes>
+</test>  
+
+
+<test name="SK_LA_VisitorPassType" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_VisitorPassType" />
+</classes>
+</test>
+
+   
+<test name="SK_LA_VisitorPasses" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_VisitorPasses" />
+</classes>
+</test>
+
+<test name="SK_LA_MenuList" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_MenuList" />
+</classes>
+</test>
+
+
+<!-- <test name="SK_LA_ActivateAVAlarms" >
+<classes>
+<class name="com.TestNGScript.file.SK_LA_ActivateAVAlarms" />
+</classes>
+</test> 
+
+
+<test name="SK_Login" >
+<classes>
+<class name="com.TestNGScript.file.SK_Login" />
+</classes>
+</test>
+
+-->
+
+</suite>
